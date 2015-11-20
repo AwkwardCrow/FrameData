@@ -1,0 +1,32 @@
+- take the angular code school courses tomorrow
+- create a front end (very bare bones) that calls the API I created
+  - add/get Games
+  - add/get Characters
+  - add/get Moves
+- display data in a decent format
+
+
+- learn how to do a sizeable dumb of data to the database for games, characters, and moves w/frame data so I can initialize it
+
+okay, so now that ive jumped into angular, i should create a basic page for the webapp
+
+index.html
+filter box at the top of the page
+
+basic list of games available
+  - these will be buttons populated from the api call getGames
+  - when selected
+    - load characters page
+    - populate with information from the api call getCharacters, with the optional 'games' parameter based on the button clicked
+
+
+- so basically i just need to code some iterative elements using ng-repeat,
+- separate it out into their own html pages so i can just include them on the one page
+- make the controller reach out to the API to grab based on a filter (start with just grabbing all)
+
+- this shouldn't be too hard, can probably start working on this tonight after the gym
+
+- create an html for each "class", the games, charcters, and Moves
+- each of these xmls will contain a div and contain the ng-repeat directive to loop
+- it will be one index.html and each of these pages will just update the view
+- the code that calls the api will be in the .js behind the scenes, which will contain the directives and controllers
