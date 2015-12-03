@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"name": "C. Viper",
+		"health": 900000,
+		"gameid": 1,
+		"moves": []
+	},
+	{
+		"id": 2,
+		"name": "Dr. Doom",
+		"health": 950000,
+		"gameid": 1,
+		"moves": []
+	},
+	{
+		"id": 3,
+		"name": "Nova",
+		"health": 950000,
+		"gameid": 1,
+		"moves": []
+	},
+	{
+		"id": 4,
+		"name": "Chun Li",
+		"health": 900,
+		"gameid": 2,
+		"moves": []
+	},
+	{
+		"id": 5,
+		"name": "Ryu",
+		"health": 1000,
+		"gameid": 2,
+		"moves": []
+	},
+	{
+		"id": 6,
+		"name": "Akuma",
+		"health": 850,
+		"gameid": 2,
+		"moves": []
+	},
+	{
+		"id": 7,
+		"name": "Scorpion",
+		"health": 100,
+		"gameid": 3,
+		"moves": []
+	},
+	{
+		"id": 8,
+		"name": "Sub Zero",
+		"health": 100,
+		"gameid": 3,
+		"moves": []
+	},
+	{
+		"id": 9,
+		"name": "Fera/Tor",
+		"health": 100,
+		"gameid": 3,
+		"moves": []
+	}
+]

@@ -1,0 +1,40 @@
+<div class="jumbotron text-center">
+  <div class="container">
+    <div>
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+
+    </div>
+    <div class="panel-group">2
+      <div class="panel panel-default" ng-repeat="game in games | filter:query">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a ng-click="isCollapsed = !isCollapsed" data-parent="#accordion" href="#{{game.id}}">
+              {{game.name}}
+            </a>
+          </h4>
+        </div>
+        <div id="{{game.id}}" collapse="isCollapsed">
+          <div class="panel-body">
+              {{game.name}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!--Body content
+      <ul class="games">
+        <li ng-repeat="game in games | filter:query">
+          <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>  
+          comment out image
+          
+          <a ui-sref="characters({gameID: {{game.id}}})">{{game.name}}</a>
+          <p>{{game.system}}</p>
+          <div ui-view></div>
+        </li>
+      </ul>
+        -->
+    </div>
+  </div>
+</div>

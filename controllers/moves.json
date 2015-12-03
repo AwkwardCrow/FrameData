@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "S.L",
+    "character" : "1",
+    "damage": 10000,
+    "startup": 5,
+    "active": 6,
+    "recovery": 3,
+    "blockAdv": 2,
+    "hitAdv": 4
+  },
+  {
+    "id": 2,
+    "name": "S.M",
+    "character" : "1",
+    "damage": 15000,
+    "startup": 7,
+    "active": 8,
+    "recovery": 4,
+    "blockAdv": 3,
+    "hitAdv": 5
+  },
+  {
+    "id": 3,
+    "name": "S.H",
+    "character" : "1",
+    "damage": 17000,
+    "startup": 8,
+    "active": 10,
+    "recovery": 7,
+    "blockAdv": 5,
+    "hitAdv": 6
+  }
+    {
+    "id": 4,
+    "name": "S",
+    "character" : "1",
+    "damage": 20000,
+    "startup": 5,
+    "active": 15,
+    "recovery": 10,
+    "blockAdv": 8,
+    "hitAdv": 12
+  }
+    {
+    "id": 5,
+    "name": "S.L",
+    "character" : "2",
+    "damage": 12000,
+    "startup": 6,
+    "active": 7,
+    "recovery": 4,
+    "blockAdv": 3,
+    "hitAdv": 5
+  },
+  {
+    "id": 6,
+    "name": "S.M",
+    "character" : "2",
+    "damage": 17000,
+    "startup": 8,
+    "active": 9,
+    "recovery": 5,
+    "blockAdv": 4,
+    "hitAdv": 6
+  },
+  {
+    "id": 7,
+    "name": "S.H",
+    "character" : "2",
+    "damage": 19000,
+    "startup": 9,
+    "active": 11,
+    "recovery": 8,
+    "blockAdv": 6,
+    "hitAdv": 7
+  }
+    {
+    "id": 8,
+    "name": "S",
+    "character" : "2",
+    "damage": 21000,
+    "startup": 6,
+    "active": 16,
+    "recovery": 11,
+    "blockAdv": 9,
+    "hitAdv": 13
+  }
+]

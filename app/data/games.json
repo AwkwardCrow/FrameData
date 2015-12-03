@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"name" : "Ultimate Marvel VS Capcom 3",
+  		"version" : "1.2",
+  		"system" : "Xbox 360",
+  		"releaseDate" : "November 15, 2011"
+	},
+	{
+		"id": 2,
+		"name" : "Ultra Street Fighter 4",
+  		"version" : "1.2",
+  		"system" : "Xbox 360",
+  		"releaseDate" : "November 16, 2011"
+	},
+	{
+		"id": 3,
+		"name" : "Mortal Kombat",
+  		"version" : "1.2",
+  		"system" : "Xbox 360",
+  		"releaseDate" : "November 17, 2011"
+	}
+]

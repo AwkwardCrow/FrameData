@@ -1,0 +1,7 @@
+<div class="list" ng-show"{{gamesView}}" ng-repeat="game in gameCtrl.games">
+	<a ui-sref=".list" class="btn btn-primary">List</a>
+	    <a ui-sref=".paragraph" class="btn btn-danger">Paragraph</a>
+	<tr>
+		<td><button class="slider">{{game.name}}</button></td>
+	</tr>
+</div>

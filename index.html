@@ -1,12 +1,21 @@
 <html>
   <head>
-    <title>My Angular App!</title>
+    <title>My Frame Data App!</title>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
     <script src="app.js"></script>
+    <script src="./controllers/moves.js"></script>
+    <script src="./controllers/characters.js"></script>
+    <script src="./controllers/games.js"></script>
   </head>
-  <body ng-app="flapperNews" ng-controller="MainCtrl">
-    <div>
-      {{test}}
+  <body ng-app="FrameData">
+    <div class="title">
+      <h1 class="title">Frame Data Application</h1>
     </div>
+    <div class="list-group">
+      <a ui-sref=".list" class="btn btn-primary">List</a>
+      <a ui-sref=".paragraph" class="btn btn-danger">Paragraph</a>
+    </div>
+    <div ui-view></div>
   </body>
 </html>

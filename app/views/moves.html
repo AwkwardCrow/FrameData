@@ -1,0 +1,80 @@
+<div class="jumbotron text-center">
+  <div class="container">
+    <div>
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+
+    </div>
+    <div>
+      <!--Body content-->
+
+      
+          <!--<a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>  
+          comment out image
+          -->
+        <table st-table="moves" class="table table-striped">
+          <thead>
+            <tr>
+              <th>
+                <a ui-sref=".({characterID: {{character.id}}})" ng-click="sortType = 'name'; sortReverse = !sortReverse">
+                  Name
+                  <span ng-show="sortType == 'name'"></span>
+                </a>
+              </th>
+              <th>
+                <a ui-sref=".({characterID: {{character.id}}})" ng-click="sortType = 'damage'; sortReverse = !sortReverse">
+                  Damage
+                  <span ng-show="sortType == 'damage'"></span>
+                </a>
+              </th>
+              <th>
+                <a ui-sref=".({characterID: {{character.id}}})" ng-click="sortType = 'startup'; sortReverse = !sortReverse">
+                  Startup
+                  <span ng-show="sortType == 'startup'"></span>
+                </a>
+              </th>
+              <th>
+                <a ui-sref=".({characterID: {{character.id}}})" ng-click="sortType = 'active'; sortReverse = !sortReverse">
+                  Active
+                  <span ng-show="sortType == 'active'"></span>
+                </a>
+              </th>
+              <th>
+                <a ui-sref=".({characterID: {{character.id}}})" ng-click="sortType = 'recovery'; sortReverse = !sortReverse">
+                  Recovery
+                  <span ng-show="sortType == 'recovery'"></span>
+                </a>
+              </th>
+              <th>
+                <a ui-sref=".({characterID: {{character.id}}})" ng-click="sortType = 'blockAdv'; sortReverse = !sortReverse">
+                  Block Adv.
+                  <span ng-show="sortType == 'blockAdv'"></span>
+                </a>
+              </th>
+              <th>
+                <a ui-sref=".({characterID: {{character.id}}})" ng-click="sortType = 'hitAdv'; sortReverse = !sortReverse">
+                  Hit Adv.
+                  <span ng-show="sortType == 'hitAdv'"></span>
+                </a>
+              </th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr ng-repeat="move in moves | orderBy: sortType:sortReverse | filter:query">
+                  <td>{{move.name}}</td>
+                  <td>{{move.damage}}</td>
+                  <td>{{move.startup}}</td>
+                  <td>{{move.active}}</td>
+                  <td>{{move.recovery}}</td>
+                  <td>{{move.blockAdv}}</td>
+                  <td>{{move.hitAdv}}</td>
+              </tr>
+            </tbody>
+          </table>
+
+      
+
+    </div>
+  </div>
+</div>

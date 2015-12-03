@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"name": "C. Viper",
+		"health": 900000,
+		"game": 1,
+		"moves": []
+	}
+	{
+		"id": 2,
+		"name": "Dr. Doom",
+		"health": 950000,
+		"game": 1,
+		"moves": []
+	}
+]

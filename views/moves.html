@@ -1,0 +1,12 @@
+<div class="list" ng-show="{{movesView}}" ng-repeat="move in movesCtrl.moves">
+	<!--need to create a grid layout here thats setting up the frame data for each move-->
+	<tr>
+		<td>{{move.name}}</td>
+		<td>{{move.damage}}</td>
+		<td>{{move.startup}}</td>
+		<td>{{move.active}}</td>
+		<td>{{move.recovery}}</td>
+		<td>{{move.blockAdv}}</td>
+		<td>{{move.hitAdv}}</td>
+	</tr>
+</div>

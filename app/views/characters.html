@@ -1,0 +1,11 @@
+<div id="{{game.id}}" class="panel-collapse collapse in">
+  <div class="panel-body">
+    <table st-table="characters" class="table table-striped">
+      <tbody>
+        <tr ng-repeat="character in characters | filter:query" class="col-md-2">
+          <td>{{character.name}}</td>
+        </tr>>
+      </tbody>
+    </table>
+  </div>
+</div>
